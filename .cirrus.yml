@@ -11,5 +11,5 @@ task:
       cpu: 7
       memory: 8G
     build_script:
-      - bash build.sh
+      - bash build.sh #trial-1
     
