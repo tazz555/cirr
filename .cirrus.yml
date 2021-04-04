@@ -1,0 +1,15 @@
+env:
+    CIRRUS_CLONE_DEPTH: 1
+    CIRRUS_WORKING_DIR: "/tmp/ci"
+
+    
+task:
+    name: recovery
+    timeout_in: 120m
+    container:
+      image: dazz111/ubuntu-sdk:build
+      cpu: 7
+      memory: 8G
+    build_script:
+      - bash build.sh
+    
