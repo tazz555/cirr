@@ -7,7 +7,7 @@ task:
     name: recovery
     timeout_in: 120m
     container:
-      image: dazz111/ubuntu-sdk:build
+      image: brock5555/recovery
       cpu: 7
       memory: 8G
     build_script:
